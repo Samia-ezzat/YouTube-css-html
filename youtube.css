@@ -142,6 +142,11 @@ aside{
     width: 17%;
     background-color: rgb(251, 251, 255);
     overflow-y: auto; /*to make scroll body when overflow*/
+    scrollbar-width: none;
+}
+
+aside:hover {
+        scrollbar-width: thin;
 }
 nav{
     width: 100%;
